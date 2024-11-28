@@ -10,3 +10,7 @@ alpha-001-create-new-essense-for-game
 alpha-002-little-changes
 
     It's about better view in console while debug.
+
+alpha-003-added-this.-in-code
+
+    I still learning codding, and now I added a thing call "this." in objects.
