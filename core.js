@@ -5,12 +5,20 @@ const essence = {
     profession: "manager",
     hp: 100,
     sleepines: 0,
+    greeting() {
+      print(`${essence["name"]} ${essence["surname"]}: \tHello!`);
+    },
+  };
+
+  function print(str) {
+    console.log(str);
   };
 
   function printObject(objectName) {
     printLine();
     for (let prop in objectName) {
-      console.log(`${prop} - ${objectName[prop]}`);
+      if (prop === "greeting") continue;
+      print(`${prop} - ${objectName[prop]}`);
     };
     printLine();
   };
@@ -21,8 +29,9 @@ const essence = {
     for (let i = 0; i < lengthLine; i++) {
       result += char;
     };
-    return (console.log(result));
+    return (print(result));
   };
   
   printObject(essence);
 
+  essence.greeting();
