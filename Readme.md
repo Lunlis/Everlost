@@ -14,3 +14,7 @@ alpha-002-little-changes
 alpha-003-added-this.-in-code
 
     I still learning codding, and now I added a thing call "this." in objects.
+
+alpha-004-correct-one-miss-in-code
+
+    I just correct this one "name" into "surname" in 9 line.

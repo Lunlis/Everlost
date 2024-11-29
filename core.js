@@ -6,7 +6,7 @@ const essence = {
     hp: 100,
     sleepines: 0,
     greeting() {
-      print(`${this.name} ${this.name}: \tHello!`);
+      print(`${this.name} ${this.surname}: \tHello!`);
     },
   };
 
